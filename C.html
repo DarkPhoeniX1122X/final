@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>C Sayfası - Slayt Gösterisi</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .carousel-inner img {
+    height: auto;
+    max-height: 500px;
+    width: 100%;
+    object-fit: cover;
+    }
+    .carousel-caption {
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
+      padding: 10px;
+    }
+  </style>
+  <link rel="stylesheet" href="tema.css">
+</head>
+<body>
+
+<div class="container mt-4">
+  <h2 class="mb-4 text-center">Dünya Harikaları</h2>
+
+  <div id="harikalarCarousel" class="carousel slide mx-auto" data-bs-ride="carousel" style="max-width: 900px;">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <img src="images/machu-picchu2.jpg" class="d-block w-100" alt="Machu Picchu">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Machu Picchu</h5>
+          <p>Peru’nun And Dağları’nda, bulutların arasında kaybolmuş antik bir İnka şehri.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="images/petra2.jpg" class="d-block w-100" alt="Petra">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Petra</h5>
+          <p>Ürdün’de kayaların içine oyulmuş, tarih kokan büyüleyici bir antik şehir.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="images/taj-mahal2.jpg" class="d-block w-100" alt="Taj Mahal">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Taj Mahal</h5>
+          <p>Hindistan’ın Agra kentinde, aşk için mermerden inşa edilen görkemli yapı.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="images/cin-seddi2.jpg" class="d-block w-100" alt="Çin Seddi">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Çin Seddi</h5>
+          <p>Binlerce kilometre uzanan bu duvar, Çin'in tarihi sınırlarını korumuştur.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="images/kolezyum2.jpg" class="d-block w-100" alt="Kolezyum">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Kolezyum</h5>
+          <p>Roma'nın kalbinde yer alan, gladyatör savaşlarına ev sahipliği yapan arena.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#harikalarCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      
+      <span class="visually-hidden">Önceki</span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#harikalarCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Sonraki</span>
+    </button>
+  </div>
+</div>
+
+<div class="text-center mt-4 mb-4">
+  <a href="A.html" class="btn btn-outline-success">Ana Sayfa</a>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+<footer class="bg-light text-center text-muted py-3 border-top mt-5">
+  <div class="container">
+    <small>&copy; 2025 Üst Ortam Programlama | Final Projesi</small>
+  </div>
+</footer>
+</html>
